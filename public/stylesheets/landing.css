@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+h1 { font-family: 'Montserrat', cursive; font-size: 50px;line-height:1.5 }
+p { font-family: 'Montserrat', cursive;line-height:2}
+a{font-family: 'Montserrat', cursive; color:#fff !important;}
+
+header{
+    position:absolute;
+    z-index:0;
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+ }
+ 
+.header-images{
+    position:absolute;
+    z-index:0;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+ }
+ 
+ .header-images img{
+     position:absolute;
+     opacity:0;
+     width:100%;
+     height:100vh;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     padding:0;
+     margin:0;
+ }
+ 
+.header-images .one{
+     animation:animate-five-one 50s infinite forwards linear;
+ }
+ 
+.header-images .two{
+     animation:animate-five-two 50s infinite forwards linear;
+     animation-delay:10s;
+ }
+ 
+.header-images .three{
+     animation:animate-five-three 50s infinite forwards linear;
+     animation-delay:20s;
+ }
+ 
+.header-images .four{
+     animation:animate-five-four 50s infinite forwards linear;
+     animation-delay:30s;
+ }
+ 
+.header-images .five{
+     animation:animate-five-five 50s infinite forwards linear;
+     animation-delay:40s;
+ }
+ 
+ @keyframes animate-five-one{
+     0% {
+         opacity: 0;
+         animation-timing-function: ease-in;
+       }
+       10% {
+         opacity: 1;
+         animation-timing-function: ease-out;
+       }
+       20% {
+         opacity: 1;
+       }
+       30% {
+         opacity: 0;
+       }
+ }
+ 
+ @keyframes animate-five-two{
+     0% {
+         opacity: 0;
+         animation-timing-function: ease-in;
+       }
+       10% {
+         opacity: 1;
+         animation-timing-function: ease-out;
+       }
+       20% {
+         opacity: 1;
+       }
+       30% {
+         opacity: 0;
+       }
+ }
+ 
+ @keyframes animate-five-three{
+     0% {
+         opacity: 0;
+         animation-timing-function: ease-in;
+       }
+       10% {
+         opacity: 1;
+         animation-timing-function: ease-out;
+       }
+       20% {
+         opacity: 1
+       }
+       30% {
+         opacity: 0
+       }
+ }
+ 
+ @keyframes animate-five-four{
+     0% {
+         opacity: 0;
+         animation-timing-function: ease-in;
+       }
+       10% {
+         opacity: 1;
+         animation-timing-function: ease-out;
+       }
+       20% {
+         opacity: 1
+       }
+       30% {
+         opacity: 0
+       }
+ }
+ 
+ @keyframes animate-five-five{
+     0% {
+         opacity: 0;
+         animation-timing-function: ease-in;
+       }
+       10% {
+         opacity: 1;
+         animation-timing-function: ease-out;
+       }
+       20% {
+         opacity: 1
+       }
+       30% {
+         opacity: 0
+       }
+ }
+ 
+ 
+ .container {
+    z-index:1;
+    position:fixed;
+    width:100%;
+    top:30%;
+    text-align: center;
+ }
+ 
+ h1{
+     font-weight:bold;
+     color:#fff;
+ }
+ 
+p{
+     font-size:17px;
+     color:#fff;
+     text-decoration:underline;
+ }
+ 
+.btn{
+     margin-top:2rem;
+     background:none;
+     color:#fff !important;
+     border-color:#f1f1f1;
+     outline:none !important;
+ }

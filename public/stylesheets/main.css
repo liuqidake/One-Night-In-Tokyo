@@ -1,0 +1,319 @@
+
+/* STYLE APPLYING FOR ALL */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+h1 { font-family: 'Montserrat', cursive; font-size: 50px; font-weight:bold;line-height:1.5;letter-spacing:3px;}
+h2 { font-family: 'Montserrat', cursive; font-size: 28px; font-weight: 600; color:#F90B6D;line-height: 32px;}
+h4 {font-family: 'Montserrat', cursive; font-weight: 600;}
+p { font-family: 'Montserrat', cursive;line-height:2; font-size:14px}
+a{font-family: 'Montserrat', cursive;}
+
+.navbar-default{
+  background-color: #fff;
+  border-color: #c8ccd1;
+  padding:0;
+}
+.navbar-default .navbar-brand{
+    color:#000;
+}
+
+.navbar-default .nav >li >a{
+    font-weight:bold;
+    border-bottom:2px solid #fff;
+}
+
+.navbar-default .nav >li >a:hover,.navbar-default .nav >li >a:focus,.navbar-default .nav >li >a:active {
+    border-bottom:2px solid #F90B6D;
+}
+
+
+.section{
+    margin-top:5%;
+    transition:0.5s;
+    width:100%;
+}
+
+
+/* STYLE FOR NAVBAR */
+
+.section-nav{
+    margin-top:10%;
+}
+
+.navigation {
+    margin:1.66%;
+    font-size:30px;
+    padding-top:40%;
+    padding-bottom:40%;   
+    transition:0.3s;
+}
+.section-nav a{
+    text-decoration:none;
+}
+.section-nav a :hover{
+    -webkit-box-shadow: 0px 22px 61px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 22px 61px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 22px 61px 0px rgba(0,0,0,0.75);
+    margin-top:-2%;
+}
+
+
+.nav-1{
+    background: url(https://images.unsplash.com/photo-1455279032140-49a4bf46f343?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cfb5e14c1343179bff60d45ae8682c05&auto=format&fit=crop&w=1650&q=80);
+    background-size:cover;
+    background-position: center;
+    color:#000;
+}
+
+
+.nav-2{
+    background: url(https://images.unsplash.com/photo-1502716332773-a02100694c66?ixlib=rb-0.3.5&s=39cf9560234dff2bd9365a7ebe7b0814&auto=format&fit=crop&w=1650&q=80);
+    background-size:cover;
+    background-position: center;
+    color:#fff;
+}
+
+.nav-3{
+    background: url(http://resources.mynewsdesk.com/image/upload/c_limit,dpr_1.0,f_auto,h_700,q_auto,w_690/mjjkbebqfna4cmr2mxqv.jpg);
+    background-size:cover;
+    background-position: center;
+    color:#f1f1f1;
+}
+
+
+/* STYLE FOR INDEX.EJS */
+ 
+  section .container-img{
+      width:70%;
+  }
+
+  
+  section .thumbnail{
+      padding:0;
+      border:none;
+      position:relative;
+  }
+
+  .thumbnail .img-desc{
+      background-color:rgb(8, 4, 4);
+      position:absolute;
+      bottom:0;
+      left:0;
+      width:100%;
+      height:0;
+      text-align:center;
+      overflow-y:hidden;
+      transition:0.5s;
+  }
+
+  .thumbnail .rest-name{
+      position:absolute;
+      padding:0;
+      width:100%;
+      top:40%;
+      left:0;
+      text-align:center;
+      transition:0.5s;
+      color:#fff;
+  }
+  .thumbnail a{
+      color:#fff;
+      margin-top:20%;
+  }
+
+  #section-b .thumbnail .img-desc{
+      background-color:#F90B6D;
+  }
+
+  #section-c .thumbnail .img-desc{
+    background-color:#1C6BA0;
+}
+
+/* STYLE FOR FOOD MODULE */
+.food-background{
+    position:fixed;
+    width:100%;
+    height:100vh;  
+    background:#adacab;
+    opacity:0.5
+}
+
+.onsen-background{
+    position:fixed;
+    width:100%;
+    height:100vh;  
+    background:#e6ecf2;
+    opacity:0.5
+}
+
+.shopping-background{
+    position:fixed;
+    width:100%;
+    height:100vh;  
+    background:#f7a8c1;
+    opacity:0.5
+}
+
+.module {
+    padding-top:4rem;
+}
+.module-title{
+   margin-top:3.8%;
+   width:100%;
+   height:50vh;
+   overflow:hidden;
+}
+
+.module-title img{
+    position:absolute;
+    top:-50%;
+    width:100%;
+}
+
+.module-title .title{
+    position:relative;
+    margin-top:5%;
+    color:#fff;
+    text-shadow:2px 2px #000;
+}
+
+
+.main-content{
+    margin-top:5rem;
+    padding:0 15rem;
+    text-align:justify;
+   
+}
+
+ .main-content .title{
+     text-align:center;
+ }
+
+ .module-part2 .container{
+     margin-top:5rem;
+ }
+
+
+ /* STYLE FPR SHOPPING MODULE */
+
+ .shopping{
+    padding-top:5%;
+    padding-bottom:5%;
+    border-bottom:1px #e4e5d5 solid;
+ }
+
+ .shopping-part1{
+     padding-top:10%
+ }
+
+ .shopping .content{
+     padding:5% 5% 5% 5%;
+ }
+
+ .shopping.thumbnail{
+    padding:5% 5% 5% 5%;
+ }
+
+ .shopping .content p{
+     text-align: justify
+ }
+
+ #source{
+     margin-top:4rem;
+ }
+
+
+ /* STYLE FOR ONSEN MODULE */
+
+ .onsen{
+    background:#e0edfc;
+    padding-top:5%;
+    padding-bottom:5%;
+    border-bottom:1px #f1f1f1 solid;
+ }
+.onsen-part1{
+    margin-top:4.3%;
+}
+
+
+
+@media (max-width: 800px){
+    .main-content{
+        padding-left:2rem;
+        padding-right:2rem;
+    }
+}
+ 
+footer{
+    margin-top:5%;
+    display:block;
+    width:100%;
+    overflow:hidden;
+}
+
+.footer-image{
+    position:relative;
+    width:100%;
+    overflow:hidden;
+    opacity:0.8
+}
+
+.footer-image img{
+    width:100%;
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    opacity:10;
+    overflow:hidden;
+}
+
+.footer-nav{
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+
+footer .container{
+    width:60%;
+    margin-top:3rem;
+}
+
+footer .footer-header{
+    border-top:1px solid #514e50;
+    border-bottom:1px solid #514e50;
+}
+
+footer .footer-header p{
+    font-weight:bold;
+}
+
+footer .content p{
+    font-family: 'Crimson Text', serif;
+    font-weight:100;
+    color:#000;
+}
+footer .content a{
+    text-decoration:none;
+}
+
+footer .content p:hover{
+    color:#666768 !important;
+}
+
+
+footer .social-media .fab{
+    font-size:30px;
+    color:#252526;
+}
+
+footer .social-media .fab:hover{
+    color:#276bd8;
+}
