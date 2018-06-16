@@ -11,7 +11,7 @@ body{
     overflow-x:hidden;
 }
 
-h1 { font-family: 'Montserrat', cursive; font-size: 50px; font-weight:bold;line-height:1.5;letter-spacing:3px;}
+h1 { font-family: 'Montserrat', cursive; font-size: 50px; font-weight:bold;line-height:1.2;letter-spacing:3px;}
 h2 { font-family: 'Montserrat', cursive; font-size: 28px; font-weight: 600; color:#F90B6D;line-height: 32px;}
 h4 {font-family: 'Montserrat', cursive; font-weight: 600;}
 p { font-family: 'Montserrat', cursive;line-height:2; font-size:14px}
