@@ -42,7 +42,8 @@ header{
      animation-name: imageBackground;
      animation-duration: 30s;
  }
-  h1{
+ 
+ h1{
      font-size: 500%;line-height:1.5;font-weight:bold;color:#fff;
      text-shadow:1px 1px #f9e5f1;
      animation-name: imageBackground;
@@ -92,15 +93,20 @@ header{
     text-align: center;
  }
 
- @media(max-width: 700px){
+ @media(max-width: 750px){
    .container{
      right:0;
    }
-   p{
-       margin:5% 10% 0 10%;
+   
+ }
+ 
+ @media(max-width:600px){
+     p{
+       display:none;
    }
    h1{
        line-height:1.2;
    }
  }
+ 
  
