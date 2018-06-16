@@ -61,7 +61,8 @@ a{font-family: 'Montserrat', cursive;}
 
 
 .nav-1{
-    background: url(https://res.cloudinary.com/liuqidake/image/upload/c_scale,h_300,q_auto:low,w_300/v1529142056/ONIT/nav/eat.webp);
+    
+    background: url(https://res.cloudinary.com/liuqidake/image/upload/c_scale,h_300,q_auto:low,w_300/v1529142056/ONIT/nav/eat.png);
     background-size:cover;
     background-position: center;
     color:#000;
@@ -69,14 +70,14 @@ a{font-family: 'Montserrat', cursive;}
 
 
 .nav-2{
-    background: url(https://res.cloudinary.com/liuqidake/image/upload/c_scale,h_300,q_auto:low,w_300/v1529142101/ONIT/nav/buy.webp);
+    background: url(https://res.cloudinary.com/liuqidake/image/upload/c_scale,h_300,q_auto:low,w_300/v1529142101/ONIT/nav/buy.png);
     background-size:cover;
     background-position: center;
     color:#fff;
 }
 
 .nav-3{
-    background: url(https://res.cloudinary.com/liuqidake/image/upload/c_scale,h_300,q_auto:low,w_300/v1529142149/ONIT/nav/onsen.webp);
+    background: url(https://res.cloudinary.com/liuqidake/image/upload/c_scale,h_300,q_auto:low,w_300/v1529142149/ONIT/nav/onsen.png);
     background-size:cover;
     background-position: center;
     color:#f1f1f1;
@@ -180,7 +181,7 @@ a{font-family: 'Montserrat', cursive;}
 
 .module-title .title{
     position:relative;
-    margin-top:150px;
+    margin-top:120px;
     color:#fff;
     text-shadow:2px 2px #000;
 }
