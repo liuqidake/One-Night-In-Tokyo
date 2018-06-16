@@ -167,7 +167,6 @@ a{font-family: 'Montserrat', cursive;}
    height:50vh;
    overflow:hidden;
 }
-
 .module-title img{
     position:absolute;
     width:100%;
@@ -177,6 +176,8 @@ a{font-family: 'Montserrat', cursive;}
     background-repeat:no-repeat;
     overflow:hidden;
     filter: brightness(1);
+    animation-name: imageBackground;
+    animation-duration: 30s;
 }
 
 .module-title .title{
@@ -184,6 +185,8 @@ a{font-family: 'Montserrat', cursive;}
     margin-top:150px;
     color:#fff;
     text-shadow:2px 2px #000;
+    animation-name: imageBackground;
+    animation-duration: 30s;
 }
 
 @media (max-width:500px){
@@ -212,35 +215,6 @@ a{font-family: 'Montserrat', cursive;}
  }
 
 
- /* STYLE FOR SHOPPING MODULE */
-
- /*.shopping{*/
- /*   padding-top:3%;*/
- /*   padding-bottom:3%;*/
- /*   border-bottom:1px #e4e5d5 solid;*/
- /*}*/
-
- /*.shopping-part1{*/
- /*    padding-top:10%*/
- /*}*/
-
- /*.shopping .content{*/
- /*    padding:0 8% 0 8%;*/
- /*}*/
-
- /*.shopping.thumbnail{*/
- /*   padding:5% 5% 5% 5%;*/
- /*}*/
-
- /*.shopping .content p{*/
- /*    text-align: left;*/
- /*    margin:5% auto;*/
- /*}*/
- 
- /*.shopping .thumbnail img{*/
- /*    padding:0;*/
- /*    width:100%;*/
- /*}*/
 
  #source{
      margin-top:4rem;
@@ -364,10 +338,6 @@ footer .social-media .fab:hover{
     }
 }
 
-.module-title img{
-     animation-name: imageBackground;
-     animation-duration: 30s;
-}
 
  @keyframes imageBackground {
   0% {

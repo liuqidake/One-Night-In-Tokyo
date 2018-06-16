@@ -8,10 +8,8 @@ body{
     overflow:hidden;
 }
 
-h1 { font-family: 'Caveat', cursive; font-size: 500%;line-height:1.5;font-weight:bold;color:#fff;
-     text-shadow:1px 1px #f9e5f1;}
-p { font-family: 'Montserrat', cursive;line-height:2; font-size:2px; font-size:17px;
-     color:#fff;}
+h1 { font-family: 'Caveat', cursive; }
+p { font-family: 'Montserrat', cursive;}
 a{font-family: 'Montserrat', cursive; color:#fff !important;}
 
 header{
@@ -41,6 +39,28 @@ header{
      background-repeat: no-repeat;
      padding:0;
      margin:0;
+     animation-name: imageBackground;
+     animation-duration: 30s;
+ }
+  h1{
+     font-size: 500%;line-height:1.5;font-weight:bold;color:#fff;
+     text-shadow:1px 1px #f9e5f1;
+     animation-name: imageBackground;
+     animation-duration: 30s;
+ }
+ 
+ p{
+     line-height:2; font-size:2px; font-size:17px;
+     color:#fff;
+     animation-name: imageBackground;
+     animation-duration: 30s;
+ }
+ 
+.btn{
+     margin-top:2rem;
+     background:none;
+     border-color:#f1f1f1;
+     outline:none !important;
      animation-name: imageBackground;
      animation-duration: 30s;
  }
@@ -84,13 +104,3 @@ header{
    }
  }
  
- 
- 
- 
-.btn{
-     margin-top:2rem;
-     background:none;
-     color:#fff !important;
-     border-color:#f1f1f1;
-     outline:none !important;
- }
