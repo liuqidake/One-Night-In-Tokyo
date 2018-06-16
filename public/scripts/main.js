@@ -59,27 +59,12 @@ window.sr = ScrollReveal();
 
 sr.reveal($('.section-nav'), {
   duration:1500,
-  distance:'30px',
+  distance:'10px',
   viewFactor:0.2
 });
 
 sr.reveal($('.module'), {
   duration:1500,
-  distance:'30px',
+  distance:'10px',
   viewFactor:0.2
 });
-
-
-sr.reveal($('.shopping .thumbnail'),{
-  duration:1500,
-  distance:'300px',
-  origin:'left',
-  viewFactor:0.2
-})
-
-sr.reveal($('.shopping .content'),{
-  duration:1500,
-  distance:'300px',
-  origin:'right',
-  viewFactor:0.2
-})
