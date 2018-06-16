@@ -191,6 +191,7 @@ a{font-family: 'Montserrat', cursive;}
     margin-top:5rem;
     padding:0 15rem;
     text-align:justify;
+    text-justify:none;
 }
 
  .main-content .title{
@@ -228,6 +229,7 @@ a{font-family: 'Montserrat', cursive;}
 
  .shopping .content p{
      text-align: justify;
+     text-justify:none;
      margin:5% auto;
  }
  
