@@ -186,6 +186,12 @@ a{font-family: 'Montserrat', cursive;}
     text-shadow:2px 2px #000;
 }
 
+@media (max-width:500px){
+    .multi-line{
+        margin-top:100px;
+    }
+}
+
 
 .main-content{
     margin-top:5rem;
@@ -208,33 +214,33 @@ a{font-family: 'Montserrat', cursive;}
 
  /* STYLE FOR SHOPPING MODULE */
 
- .shopping{
-    padding-top:3%;
-    padding-bottom:3%;
-    border-bottom:1px #e4e5d5 solid;
- }
+ /*.shopping{*/
+ /*   padding-top:3%;*/
+ /*   padding-bottom:3%;*/
+ /*   border-bottom:1px #e4e5d5 solid;*/
+ /*}*/
 
- .shopping-part1{
-     padding-top:10%
- }
+ /*.shopping-part1{*/
+ /*    padding-top:10%*/
+ /*}*/
 
- .shopping .content{
-     padding:0 8% 0 8%;
- }
+ /*.shopping .content{*/
+ /*    padding:0 8% 0 8%;*/
+ /*}*/
 
- .shopping.thumbnail{
-    padding:5% 5% 5% 5%;
- }
+ /*.shopping.thumbnail{*/
+ /*   padding:5% 5% 5% 5%;*/
+ /*}*/
 
- .shopping .content p{
-     text-align: left;
-     margin:5% auto;
- }
+ /*.shopping .content p{*/
+ /*    text-align: left;*/
+ /*    margin:5% auto;*/
+ /*}*/
  
- .shopping .thumbnail img{
-     padding:0;
-     width:100%;
- }
+ /*.shopping .thumbnail img{*/
+ /*    padding:0;*/
+ /*    width:100%;*/
+ /*}*/
 
  #source{
      margin-top:4rem;
