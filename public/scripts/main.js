@@ -55,13 +55,13 @@ $(document).scroll(function(){
 
 
 
-// window.sr = ScrollReveal();
+window.sr = ScrollReveal();
 
-// sr.reveal($('.section-nav'), {
-//   duration:1500,
-//   distance:'30px',
-//   viewFactor:0.2
-// });
+sr.reveal($('.section-nav'), {
+  duration:1500,
+  distance:'30px',
+  viewFactor:0.2
+});
 
 sr.reveal($('.module'), {
   duration:1500,
