@@ -181,13 +181,13 @@ a{font-family: 'Montserrat', cursive;}
 
 .module-title .title{
     position:relative;
-    margin-top:120px;
+    margin-top:150px;
     color:#fff;
     text-shadow:2px 2px #000;
 }
 
 @media (max-width:500px){
-    .multi-line{
+    .module-title .multi-line{
         margin-top:100px;
     }
 }
