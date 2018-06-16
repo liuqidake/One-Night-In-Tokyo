@@ -357,3 +357,25 @@ footer .social-media .fab:hover{
         margin-top:10%;
     }
 }
+
+.module-title img{
+     animation-name: imageBackground;
+     animation-duration: 30s;
+}
+
+ @keyframes imageBackground {
+  0% {
+    opacity: 0;
+    animation-timing-function: ease-in;
+  }
+  10% {
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  20% {
+    opacity: 1
+  }
+  30% {
+    opacity: 1
+  }
+}
