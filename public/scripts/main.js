@@ -38,7 +38,7 @@ $("a[href^='#']").click(function(e) {
 $('.section .thumbnail')
     .mouseover(function(){
     $(this).find('.img-desc').css('height','15%'); 
-    $(this).find('p').css('margin-top','2%');
+    // $(this).find('p').css('margin-top','2%');
     })
     .mouseout(function(){
     $(this).find('.img-desc').css('height','0');

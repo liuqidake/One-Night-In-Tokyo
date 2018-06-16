@@ -26,14 +26,6 @@ a{font-family: 'Montserrat', cursive;}
     color:#000;
 }
 
-.navbar-default .nav >li >a{
-    font-weight:bold;
-    border-bottom:2px solid #fff;
-}
-
-.navbar-default .nav >li >a:hover,.navbar-default .nav >li >a:focus,.navbar-default .nav >li >a:active {
-    border-bottom:2px solid #F90B6D;
-}
 
 
 .section{
@@ -48,6 +40,7 @@ a{font-family: 'Montserrat', cursive;}
 .section-nav{
     margin-top:10%;
 }
+
 
 .navigation {
     margin:1.66%;
@@ -68,7 +61,7 @@ a{font-family: 'Montserrat', cursive;}
 
 
 .nav-1{
-    background: url(https://images.unsplash.com/photo-1455279032140-49a4bf46f343?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cfb5e14c1343179bff60d45ae8682c05&auto=format&fit=crop&w=1650&q=80);
+    background: url(https://res.cloudinary.com/liuqidake/image/upload/c_scale,h_300,q_auto:low,w_300/v1529142056/ONIT/nav/eat.webp);
     background-size:cover;
     background-position: center;
     color:#000;
@@ -76,14 +69,14 @@ a{font-family: 'Montserrat', cursive;}
 
 
 .nav-2{
-    background: url(https://images.unsplash.com/photo-1502716332773-a02100694c66?ixlib=rb-0.3.5&s=39cf9560234dff2bd9365a7ebe7b0814&auto=format&fit=crop&w=1650&q=80);
+    background: url(https://res.cloudinary.com/liuqidake/image/upload/c_scale,h_300,q_auto:low,w_300/v1529142101/ONIT/nav/buy.webp);
     background-size:cover;
     background-position: center;
     color:#fff;
 }
 
 .nav-3{
-    background: url(http://resources.mynewsdesk.com/image/upload/c_limit,dpr_1.0,f_auto,h_700,q_auto,w_690/mjjkbebqfna4cmr2mxqv.jpg);
+    background: url(https://res.cloudinary.com/liuqidake/image/upload/c_scale,h_300,q_auto:low,w_300/v1529142149/ONIT/nav/onsen.webp);
     background-size:cover;
     background-position: center;
     color:#f1f1f1;
@@ -101,6 +94,10 @@ a{font-family: 'Montserrat', cursive;}
       padding:0;
       border:none;
       position:relative;
+  }
+  
+  .section .container p{
+      margin-bottom:2%;
   }
 
   .thumbnail .img-desc{
@@ -163,11 +160,8 @@ a{font-family: 'Montserrat', cursive;}
     opacity:0.5
 }
 
-.module {
-    padding-top:4rem;
-}
+
 .module-title{
-   margin-top:3.8%;
    width:100%;
    height:50vh;
    overflow:hidden;
@@ -175,13 +169,18 @@ a{font-family: 'Montserrat', cursive;}
 
 .module-title img{
     position:absolute;
-    top:-50%;
     width:100%;
+    height:50vh;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    overflow:hidden;
+    filter: brightness(1);
 }
 
 .module-title .title{
     position:relative;
-    margin-top:5%;
+    margin-top:150px;
     color:#fff;
     text-shadow:2px 2px #000;
 }
@@ -191,11 +190,14 @@ a{font-family: 'Montserrat', cursive;}
     margin-top:5rem;
     padding:0 15rem;
     text-align:justify;
-   
 }
 
  .main-content .title{
      text-align:center;
+ }
+ 
+ .main-content p{
+     margin:5% auto;
  }
 
  .module-part2 .container{
@@ -203,11 +205,11 @@ a{font-family: 'Montserrat', cursive;}
  }
 
 
- /* STYLE FPR SHOPPING MODULE */
+ /* STYLE FOR SHOPPING MODULE */
 
  .shopping{
-    padding-top:5%;
-    padding-bottom:5%;
+    padding-top:3%;
+    padding-bottom:3%;
     border-bottom:1px #e4e5d5 solid;
  }
 
@@ -216,7 +218,7 @@ a{font-family: 'Montserrat', cursive;}
  }
 
  .shopping .content{
-     padding:5% 5% 5% 5%;
+     padding:0 8% 0 8%;
  }
 
  .shopping.thumbnail{
@@ -224,7 +226,13 @@ a{font-family: 'Montserrat', cursive;}
  }
 
  .shopping .content p{
-     text-align: justify
+     text-align: justify;
+     margin:5% auto;
+ }
+ 
+ .shopping .thumbnail img{
+     padding:0;
+     width:100%;
  }
 
  #source{
@@ -246,7 +254,7 @@ a{font-family: 'Montserrat', cursive;}
 
 
 
-@media (max-width: 800px){
+@media (max-width: 1100px){
     .main-content{
         padding-left:2rem;
         padding-right:2rem;
@@ -316,4 +324,35 @@ footer .social-media .fab{
 
 footer .social-media .fab:hover{
     color:#276bd8;
+}
+
+/*RESPONSIVE SETTING*/
+@media(max-width:800px){
+  .section-nav{
+    margin-top:15%;
+   }
+   
+   .section .container h2{
+       font-size:100%;
+   }
+    .section .container p{
+        font-size:10px;
+    }
+    
+    .navigation{
+        padding-top:30%;
+        padding-bottom:30%;
+        margin:8%;
+    }
+    footer .container{
+        width:100%;
+    }
+    
+    .footer-image{
+        display:none;
+    }
+    
+    .shopping .thumbnail{
+        margin-top:10%;
+    }
 }
