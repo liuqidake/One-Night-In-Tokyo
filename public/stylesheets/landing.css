@@ -8,8 +8,10 @@ body{
     overflow:hidden;
 }
 
-h1 { font-family: 'Caveat', cursive; font-size: 500%;line-height:1.5 }
-p { font-family: 'Montserrat', cursive;line-height:2}
+h1 { font-family: 'Caveat', cursive; font-size: 500%;line-height:1.5;font-weight:bold;color:#fff;
+     text-shadow:1px 1px #f9e5f1;}
+p { font-family: 'Montserrat', cursive;line-height:2; font-size:2px; font-size:17px;
+     color:#fff;}
 a{font-family: 'Montserrat', cursive; color:#fff !important;}
 
 header{
@@ -74,18 +76,16 @@ header{
    .container{
      right:0;
    }
+   p{
+       margin-top:5%;
+   }
+   h1{
+       line-height:1.2;
+   }
  }
  
- h1{
-     font-weight:bold;
-     color:#fff;
-     text-shadow:1px 1px #f9e5f1;
- }
  
-p{
-     font-size:17px;
-     color:#fff;
- }
+ 
  
 .btn{
      margin-top:2rem;
