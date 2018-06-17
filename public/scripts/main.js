@@ -57,13 +57,19 @@ $(document).scroll(function(){
 
 window.sr = ScrollReveal();
 
-sr.reveal($('.section-nav'), {
+sr.reveal($('.section-nav .nav'), {
   duration:1500,
   distance:'10px',
   viewFactor:0.2
 });
 
-sr.reveal($('.module'), {
+sr.reveal($('.module .main-content'), {
+  duration:1500,
+  distance:'10px',
+  viewFactor:0.2
+});
+
+sr.reveal($('.module .thumbnail'), {
   duration:1500,
   distance:'10px',
   viewFactor:0.2
