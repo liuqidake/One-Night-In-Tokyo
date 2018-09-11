@@ -1,6 +1,6 @@
 # Introduction WebSite With JS HTML CSS Bootstrap
-https://obscure-beyond-53045.herokuapp.com
-A static website introducing the night life in Tokyo, Japan
+* A static website introducing the night life in Tokyo, Japan
+*  https://obscure-beyond-53045.herokuapp.com 
 
 ## Requirements
 
