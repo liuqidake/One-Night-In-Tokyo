@@ -42,9 +42,7 @@ npm install ejs
 
 ## Run the start script
 ```
-app.listen(process.env.PORT,process.env.IP,function(){
-	console.log('Server gets started');
-})
+npm app.js
 ```
 
 ## Server Side RESTful API
@@ -57,7 +55,7 @@ const express = require("express");
 var router = express.Router();
 ```
 
-* The schema of http server is "/content/modules/sections"
+* The schema of http requests is "/content/modules/sections"
 
 ## Views
 
@@ -105,6 +103,7 @@ app.listen(process.env.PORT,process.env.IP,function(){
 	console.log('Server gets started');
 })
 
-#Deploymnet
-Deploy this website at [Heroku](https://dashboard.heroku.com/apps)
 ```
+## Deploymnet
+Deploy this website at [Heroku](https://dashboard.heroku.com/apps)
+
