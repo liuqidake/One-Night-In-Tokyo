@@ -1,4 +1,4 @@
-# One Night in Tokyo – Introduction WebSite With JS HTML CSS Bootstrap
+# One Night in Tokyo – Introduction Website With JS HTML CSS Bootstrap
 * A static website introducing the night life in Tokyo, Japan
 *  https://obscure-beyond-53045.herokuapp.com 
 
