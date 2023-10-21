@@ -1,6 +1,6 @@
 const mq = window.matchMedia( "(max-width: 800px)" );
 
-$('.sidebar-show a').on('click',  function(){
+$('.sidebar-show a').on('click', function(){
   if(mq.matches){
     $('.side-navbar').css('width','100%');
   } else{
